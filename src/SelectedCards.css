@@ -1,0 +1,38 @@
+/* SelectedCards.css */
+
+.selected-cards {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .selected-cards h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  
+  .selected-cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .selected-card {
+    width: 80px;
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .selected-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
