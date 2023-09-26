@@ -8,13 +8,18 @@
 }
 
 .background {
-  background-image: url('./background1.png');
+  background-image: url('./AQ-BG1.png');
   min-height: 100vh;
   margin: 0;
   background-size: cover;
   background-repeat: no-repeat; /* Prevent background image from repeating */
+  justify-content: center;
+  padding-top: 120PX;
 }
-
+.canvas{
+  background-color: none !important;
+  }
+  
 .App-link {
   color: #61dafb;
 }
