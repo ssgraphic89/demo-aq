@@ -92,9 +92,10 @@ const CardGame = () => {
 
   return (
     <div className="card-game">
-      <button onClick={() => setShowCards(!showCards)}>
+      <button onClick={() => setShowCards(!showCards)} className='hideshow'>
         {showCards ? 'Hide AI Cards' : 'Generate AI Cards'}
       </button>
+      
       <div className="hand">
         {trails.map((trail, index) => (
           <animated.div

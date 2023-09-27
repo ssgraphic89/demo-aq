@@ -1,7 +1,12 @@
+@import "rsuite/dist/rsuite.css";
+
+
 .App {
   text-align: center;
 }
-
+.steps{
+margin: auto 260px ;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -23,6 +28,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {

@@ -30,7 +30,7 @@
     filter: drop-shadow(0 0 26px rgba(95, 211, 235, 0.7));
     background: linear-gradient(169.44deg, rgba(58, 129, 191, 0.164) 1.85%, rgba(65, 48, 90, 0.123) 98.72%);
     border-radius: 10px;
-    width: 150px;
+    width: auto;
     height: auto;
     overflow: hidden;
     box-shadow: 
@@ -135,14 +135,15 @@
     }
     }
   
-  button {
+  .hideshow {
     margin-top: 30px;
-    padding: 13px 20px;
+    padding: 9px 20px;
     width: 250px;
     height: 40px;
     color: #fff;
     cursor: pointer;
     font-size: 16px;
+    font-weight: bold;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -154,7 +155,7 @@
      rgba(6, 248, 208, 0.801), 0 5px 15px 8px 
      rgba(17, 15, 20, 0.384);
 }
-  
+
   /* Styles for hidden cards */
   .card:before {
     content: '';
