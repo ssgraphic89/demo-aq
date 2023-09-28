@@ -196,11 +196,19 @@ const CardGame = (props) => {
   });
 
   return (
+    
     <div className="card-game">
+            <form  onSubmit=''>
+        <label>
+          <textarea className='boxtext'/>
+        </label>
+        <input className='boxtext1'  type="submit" value="Submit" />
+
+      </form>
+
       <button onClick={() => setShowCards(!showCards)} className='hideshow' >
         {showCards ? 'Hide AI Cards' : 'Generate AI Cards'}
       </button>
-    
       {/* {selectedImage && <div>Selected Image: {selectedImage}</div>} */}
      
       <div className="hand">
