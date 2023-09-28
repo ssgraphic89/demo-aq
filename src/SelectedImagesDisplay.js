@@ -50,7 +50,7 @@ const SelectedImagesDisplay = ({ selectedImages }) => {
         {selectedImages.map((image, index) => (
           <div key={index} className='card'>
             <img
-              style={{ width: "100%", height: "auto" }}
+              style={{ width: "150px", height: "200px" }}
               src={image}
               alt="card"
             />
