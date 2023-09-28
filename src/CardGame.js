@@ -171,7 +171,7 @@ const CardGame = (props) => {
 
   // Array of card image URLs
   const cardImages = [card, card1, card2, card3, card];
-
+  //hellor
   const drawCard = () => {
     // Simulate drawing a card from the deck
     const randomIndex = Math.floor(Math.random() * cardImages.length);
@@ -217,7 +217,7 @@ const CardGame = (props) => {
             onClick={() => handleImageSelection(cardImages[index])}
           />
         ))}
-
+              
               <div className="selected-card">
           <   SelectedImagesDisplay selectedImages={selectedImages} />
             </div>
