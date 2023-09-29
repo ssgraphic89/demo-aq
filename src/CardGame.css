@@ -6,14 +6,14 @@
     align-items: center;
     margin-top: 20px;
     text-align: center;
-    padding:  20px;
+    padding:  20px 50px;
     animation-duration: 0.8s;
     filter: drop-shadow(0 0 26px rgba(95, 211, 235, 0.7));
     background: linear-gradient(169.44deg, rgba(58, 129, 191, 0.164) 1.85%, rgba(65, 48, 90, 0.123) 98.72%);
     border-radius: 10px;
     max-height: 450px;
-    max-width: 95%;
-    margin-left: 12px;
+    width: 95%;
+    margin: auto;
     margin-bottom: 20px;
     overflow: hidden;
     box-shadow: 
@@ -51,7 +51,7 @@
 
 }
 .boxtext1{
-  margin: auto;
+  margin: -83px 0px 0px  auto;
     padding: 9px 25px;
     width: auto ;
     height: auto;
@@ -68,11 +68,16 @@
     box-shadow: 0 0 10px -6px rgb(255, 255, 255), 0 0 15px -5px rgba(6, 248, 208, 0.801), 0 5px 15px 8px rgba(17, 15, 20, 0.384);
 
 }
+.box-text{
+  width: 500px;
+  margin: auto;
+  height: 60px;
+}
 
   .selected-card{
     animation-duration: 0.8s;
     padding: 20px;
-    margin-left: 10%;
+    margin-left: 16%;
 
     filter: drop-shadow(0 0 26px rgba(95, 211, 235, 0.7));
     background: linear-gradient(169.44deg, rgba(58, 129, 191, 0.164) 1.85%, rgba(65, 48, 90, 0.123) 98.72%);
@@ -183,7 +188,7 @@
     }
   
   .hideshow {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 9px 20px;
     width: 250px;
     height: 40px;
@@ -194,7 +199,8 @@
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    margin-left: 41%;
+    margin: 20px auto;
+    
     border: none;
     background: linear-gradient(169.44deg, rgba(58, 129, 191, 0.664) 1.85%, rgba(65, 48, 90, 0.123) 98.72%);
     overflow: hidden;

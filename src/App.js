@@ -42,7 +42,7 @@ function App() {
         <div className="sidebar">
           Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
         </div>
-        <div className='steps' style={{ display: 'block', width: 500, paddingLeft: 50, marginLeft: 800,marginTop:-33 }}>
+        <div className='steps' style={{ display: 'block', width: 500, paddingLeft: 50, marginTop:-33 }}>
         <Steps current={1}>
           <Steps.Item />
           <Steps.Item />

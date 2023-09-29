@@ -5,9 +5,12 @@
   text-align: center;
 }
 .steps{
-margin: auto 260px ;
-}
-.App-logo {
+  margin: auto ;
+  position:absolute; /* Fixed position to stay on the left */
+  left: 63%; /* Position at the left edge of the viewport */
+  
+  }
+  .App-logo {
   height: 40vmin;
   pointer-events: none;
 }

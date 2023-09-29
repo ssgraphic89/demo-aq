@@ -198,14 +198,14 @@ const CardGame = (props) => {
   return (
     
     <div className="card-game">
-            <form  onSubmit=''>
+           <div className='box-text'> <form  onSubmit=''>
         <label>
           <textarea className='boxtext'/>
         </label>
         <input className='boxtext1'  type="submit" value="Submit" />
 
       </form>
-
+      </div>
       <button onClick={() => setShowCards(!showCards)} className='hideshow' >
         {showCards ? 'Hide AI Cards' : 'Generate AI Cards'}
       </button>
